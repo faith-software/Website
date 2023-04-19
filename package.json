@@ -1,0 +1,31 @@
+{
+  "name": "faith.software",
+  "version": "0.0.1",
+  "description": "Faith Software's presentation website.",
+  "author": {
+    "name": "Vlad Cuciureanu",
+    "email": "vlad.cuciureanu@pm.me",
+    "url": "https://vladcuciureanu.com"
+  },
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "astro": "^2.2.1"
+  },
+  "devDependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-astro": "^0.8.0",
+    "sass": "^1.61.0"
+  }
+}
